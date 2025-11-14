@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Google Sans Code", monospace;
+}
+
+:root {
+    /* Cores de Fundo e Estrutura */
+  --cor-fundo-padrao: #f1f0f3;
+  --cor-fundo-variacao: #b96e54;
+  --cor-header-footer: #3e2b27;
+  --cor-caixas-borda: #9a6e55;
+
+  /* Cores de Texto */
+  --cor-titulo: #4a3d35;
+  --cor-paragrafo-texto: #333333;
+
+  /* Cores de Botões e Ações */
+  --cor-botao-padrao: #f29f4b;
+  --cor-botao-hover: #d17b4d;
+}
+
+body {
+    background-color: var(--cor-fundo-padrao);
+}
