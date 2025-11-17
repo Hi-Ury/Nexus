@@ -1,6 +1,52 @@
 /* hero */
+.ima-fixa {
+    background-image: url(../imagens/desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 13rem;
+}
 
 /* exemplos */
+
+.Exemplos {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 2.5rem;
+padding: 2rem;
+flex-wrap: wrap;
+flex-direction: column;
+
+}
+
+.Exemplos-01 {
+
+    background-color: aqua;
+    width: 25%;
+    height: 17rem;
+
+
+}
+
+/* .pai-Exemplos {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+color: brown;
+width: 25%;
+height:12rem ; */
+
+
+
+/* .Exemplos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /* width:10px; */
+    /* height: 10px; */
+} */
 
 /* Postar Serviço */
 
