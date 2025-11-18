@@ -5,16 +5,12 @@
     text-decoration: none;
     font-family: "Google Sans Code", monospace;
 }
-body{
-    height: 100vh;
-    width: 100vw;
-}
 
 .caixa-principal{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .lado-esquerdo{
@@ -25,12 +21,15 @@ body{
     padding: 1rem;
     display: flex;
     gap: 2rem;
-    width: 40vw;
-    color: var(--cor-fundo-padrao);
+    width: 38%;
+    height: 30rem;
+    color: white;
+    display: none;
 }
 
 .lado-esquerdo h2{
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-top: 8rem;
 }
 
 .lado-direito{
@@ -42,7 +41,9 @@ body{
     flex-direction: column;
     text-align: center;
     gap: 2rem;
-    width: 60vw;
+    width: 58%;
+    height: 30rem;
+    display: none;
 }
 
 .lado-direito h2{
@@ -87,4 +88,109 @@ form input{
 .icon {
     font-size: 1.8rem;
     cursor: pointer;
+}
+
+.segunda-parte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.esquerdo-02{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-fundo-padrao);
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+    width: 38%;
+    height: 30rem;
+    color: var(--cor-paragrafo-texto);
+}
+
+.esquerdo-02 h2{
+    font-size: 3rem;
+    color: var(--cor-titulo);
+    margin-top: 4rem;
+}
+
+.form-02 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-size: 1.4rem;
+    width: 14rem;
+    margin-top: 2rem;
+}
+
+#btn-entrar{
+    width: 8rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:var(--cor-botao-padrao);
+    
+}
+
+#btn-cadastrar{ 
+    width: 8rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botoes-segunda{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.direito-02{
+    background-image: url(/imagens/engenheiros.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 60%;
+    height: 32rem;
+}
+
+
+
+
+
+
+footer {
+    background-color: var(--cor-header-footer);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-fundo-padrao);
+    text-align: center; 
+}
+
+.logo-footer {
+    max-width: 100vw;
+    min-width: 90vw;
+    border-bottom: 2px solid var(--cor-fundo-padrao);
+}
+
+.contatos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100vw;
+    min-width: 90vw;
+    padding: 1rem;
+    border-bottom: 2px solid var(--cor-fundo-padrao);
+
+    li {
+        display: flex;
+        margin-top: .5rem;
+    }
+}
+
+.autoral {
+    padding: 1rem;
 }
