@@ -21,7 +21,7 @@
 
 .div-caixa-maior {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
 
     background-color: aqua;
@@ -37,8 +37,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 1rem;
     padding: 50px;
+    width: 20rem;
 
 
 } 
@@ -62,16 +63,21 @@
     justify-content: center;
     align-items: center;
     padding: 8rem;
-    gap: 3rem;
+    gap: 1rem;
     flex-wrap: wrap;
 
+}
+
+.line-strong {
+    /* margin: 1rem auto; */
+    width: 70%;
 }
 
 .section-03 h2 {
     color: black;
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 2rem;
+    /* margin-bottom: 1rem; */
     text-transform: uppercase;
 
 
@@ -88,6 +94,176 @@
     width: 12rem;
 
 }
+
+.section-04 {
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: safe;
+    padding: 8rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+
+}
+
+.section-04 img {
+    
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 3rem;
+    padding: 4rem;
+    float: inline-start;
+    margin: 1rem;
+
+}
+
+.contratar {
+    display: inline-flex;
+}
+
+.section-04 h2 {
+    font-size: 2rem;
+    display: inline;
+}
+
+.section-04 i {
+    display: inline;
+    align-items: center;
+    justify-content:center;
+    gap: 1rem;
+    width: 2rem;
+    padding: 0.5rem;
+    height: 2rem;
+}
+
+.section-04 p {
+
+    font-size: 1rem;
+
+}
+
+.section-04 button {
+    width: 7rem;
+    padding: 0.5rem;
+}
+
+
+.section-05 {
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: safe;
+    padding: 8rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+
+}
+
+.section-05 img {
+    
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 3rem;
+    padding: 4rem;
+    float: inline-start;
+    margin: 1rem;
+
+}
+
+.contratar {
+    display: inline-flex;
+}
+
+.section-05 h2 {
+    font-size: 2rem;
+    display: inline;
+}
+
+.section-05 i {
+    display: inline;
+    align-items: center;
+    justify-content:center;
+    gap: 1rem;
+    width: 2rem;
+    padding: 0.5rem;
+    height: 2rem;
+}
+
+.section-05 p {
+
+    font-size: 1rem;
+
+}
+
+.section-05 button {
+    width: 7rem;
+    padding: 0.5rem;
+}
+
+.section-06 {
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: safe;
+    padding: 8rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+
+}
+
+.section-06 img {
+    
+    background-color:blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 3rem;
+    padding: 4rem;
+    float: inline-start;
+    margin: 1rem;
+
+}
+
+.contratar {
+    display: inline-flex;
+}
+
+.section-06 h2 {
+    font-size: 2rem;
+    display: inline;
+}
+
+.section-06 i {
+    display: inline;
+    align-items: center;
+    justify-content:center;
+    gap: 1rem;
+    width: 2rem;
+    padding: 0.5rem;
+    height: 2rem;
+}
+
+.section-06 p {
+
+    font-size: 1rem;
+
+}
+
+.section-06 button {
+    width: 7rem;
+    padding: 0.5rem;
+}
+
 
 
 
