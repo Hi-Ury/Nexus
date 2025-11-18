@@ -1,5 +1,5 @@
 /* hero */
-.ima-fixa {
+.img-fixa {
     background-image: url(../imagens/desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -8,18 +8,21 @@
 
 /* exemplos */
 
-.Exemplos {
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-gap: 2.5rem;
-padding: 2rem;
-flex-wrap: wrap;
-flex-direction: column;
+.section-02 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2.5rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    flex-direction: column;
 
 }
 
-.Exemplos-01 {
+.div-caixa-maior {
+    display: flex;
+    justify-content: end;
+    align-items: center;
 
     background-color: aqua;
     width: 25%;
@@ -28,25 +31,69 @@ flex-direction: column;
 
 }
 
-/* .pai-Exemplos {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 2rem;
-color: brown;
-width: 25%;
-height:12rem ; */
+.div-caixas-img {
+
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
 
 
+} 
 
-/* .Exemplos {
+.div-caixa {
+
+    text-align: center;
+    width: 100px;
+    background-color: brown;
+    padding: 5px;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+    display: flex;
+    height: 100px;
+}
+
+.section-03 {
+    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    /* width:10px; */
-    /* height: 10px; */
-} */
+    padding: 8rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+}
+
+.section-03 h2 {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+
+
+}
+
+.section-03 p {
+
+    font-size: 1rem;
+   
+}
+
+.section-03 a{
+
+    width: 12rem;
+
+}
+
+
+
+
+
+
 
 /* Postar Serviço */
 
