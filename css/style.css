@@ -42,7 +42,7 @@
     width: 20rem;
 
 
-} 
+}
 
 .div-caixa {
 
@@ -52,7 +52,7 @@
     padding: 5px;
     align-items: center;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
     display: flex;
     height: 100px;
 }
@@ -86,10 +86,10 @@
 .section-03 p {
 
     font-size: 1rem;
-   
+
 }
 
-.section-03 a{
+.section-03 a {
 
     width: 12rem;
 
@@ -265,6 +265,61 @@
 }
 
 
+
+.section-04 {
+    background-color:blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+
+}
+
+.section-04 img {
+
+    background-color: blue;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 1%;
+    padding: 4rem;
+    width: 1rem;
+    float: left;
+
+}
+
+.section-04 h2 {
+font-size: 3rem;
+
+}
+
+.section-04 p {
+    font-size: 1rem;
+}
+
+.section-04 button { 
+    margin-left: 1rem;
+    width: 10rem;
+    padding: 0.5rem;
+
+    
+}
+
+.contratar {
+
+    display: flex;
+    align-items: end;
+}
+
+.section-04 i {
+
+    display: inline;
+    width: 4rem;
+    float: left;
+
+}
 
 
 
