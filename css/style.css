@@ -331,5 +331,65 @@ font-size: 3rem;
 /* Serviços */
 
 /* carrossel de avaliaçõs */
+.carrocel-avaliacao{
+    text-align: center;
+    padding: 1rem;
+
+    h2 {
+        margin-bottom: 2rem;
+        color: var(--cor-titulo);
+    }
+}
+
+:root {
+    --swiper-pagination-color: var(--cor-botao-padrao);
+    --swiper-navigation-color: var(--cor-botao-padrao);
+}
+
+.swiper {
+    min-height: 20rem;
+    height: auto; 
+}
+
+.card-swiper {
+    background-color: var(--cor-caixas);
+    height: 15rem;
+    color: var(--cor-fundo-padrao);
+    padding: 1rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition-duration: 1s;
+
+    h3 {
+        border-top: 2px solid var(--cor-fundo-padrao);
+    }
+}
+
+.swiper-slide-active .card-swiper {
+    background-color: var(--cor-caixas-secundario);
+}
+
+.botao {
+    margin: 1rem;
+    a {
+        background-color: var(--cor-botao-padrao);
+        color: var(--cor-fundo-padrao);
+        transition-duration: 1s;
+        padding: 1rem;
+        border-radius: 15px;
+        display: inline-block;
+
+        &:hover {
+            scale: 1.1;
+            background-color: var(--cor-botao-hover);
+        }
+    }
+}
+
+.comentarios-final-text {
+    color: var(--cor-paragrafo-texto);
+}
 
 /* Banner 2 */
