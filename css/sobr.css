@@ -8,7 +8,6 @@
 
 .container {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .caixa { 
@@ -18,22 +17,9 @@
     /* Espaçamento entre as divs */
     padding: 20px;
     text-align: center;
-    border: 1px solid #ccc
-    
+    border: 1px solid #ccc 
 }
 
-.img{
-    background-image: url(imagens/teamwork-3213924_1280.jpg);
-    padding: 10rem;
+.caixa-01
 
-}
-
-.esquerda {
- order: 1; /* Define que a div 'esquerda' virá primeiro */
  
-}
-
-.direita{
-    order: 2; /* Define que a div 'direita' virá depois */
-}
-
