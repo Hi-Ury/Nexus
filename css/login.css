@@ -24,7 +24,7 @@
     width: 38%;
     height: 30rem;
     color: white;
-    display: none;
+    /* display: none; */
 }
 
 .lado-esquerdo h2{
@@ -43,7 +43,7 @@
     gap: 2rem;
     width: 58%;
     height: 30rem;
-    display: none;
+    /* display: none; */
 }
 
 .lado-direito h2{
@@ -107,6 +107,7 @@ form input{
     width: 38%;
     height: 30rem;
     color: var(--cor-paragrafo-texto);
+    display: none;
 }
 
 .esquerdo-02 h2{
@@ -153,10 +154,8 @@ form input{
     background-size: cover;
     width: 60%;
     height: 32rem;
+    display: none;
 }
-
-
-
 
 
 
@@ -193,4 +192,26 @@ footer {
 
 .autoral {
     padding: 1rem;
+}
+
+@media (max-width 768px) {
+    .esquerdo-02{
+        padding: 35px;
+    }
+
+    .direito-02{
+        height: 550px;
+    }
+
+    .lado-esquerdo{max-width: 768px;
+        width: 100%;
+    }
+    .lado-direito{
+        width: 100%;
+    }
+
+    #sessao01{
+        flex-direction: column;
+    }
+
 }
