@@ -95,13 +95,19 @@
 
 }
 
+.section-03 button {
+
+    width: 0.1rem;
+    padding: 1rem;
+}
+
 .section-04 {
     background-color:aquamarine;
     display: flex;
     justify-content: center;
-    align-items: safe;
+    align-items:center;
     padding: 8rem;
-    gap: 3rem;
+    gap: 4rem;
     flex-wrap: wrap;
 
 
@@ -114,15 +120,21 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    width: 3rem;
+    width: 4rem;
     padding: 4rem;
     float: inline-start;
-    margin: 1rem;
+    margin: 0 2rem;
+    gap: 8rem;
 
 }
 
 .contratar {
-    display: inline-flex;
+    position: relative;
+    bottom: 4rem;
+    left: 30rem;
+
+
+
 }
 
 .section-04 h2 {
@@ -143,6 +155,7 @@
 .section-04 p {
 
     font-size: 1rem;
+
 
 }
 
@@ -150,176 +163,6 @@
     width: 7rem;
     padding: 0.5rem;
 }
-
-
-.section-05 {
-    background-color:bisque;
-    display: flex;
-    justify-content: center;
-    align-items: safe;
-    padding: 8rem;
-    gap: 3rem;
-    flex-wrap: wrap;
-
-
-}
-
-.section-05 img {
-    
-    background-color: blue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    width: 3rem;
-    padding: 4rem;
-    float: inline-start;
-    margin: 1rem;
-
-}
-
-.contratar {
-    display: inline-flex;
-}
-
-.section-05 h2 {
-    font-size: 2rem;
-    display: inline;
-}
-
-.section-05 i {
-    display: inline;
-    align-items: center;
-    justify-content:center;
-    gap: 1rem;
-    width: 2rem;
-    padding: 0.5rem;
-    height: 2rem;
-}
-
-.section-05 p {
-
-    font-size: 1rem;
-
-}
-
-.section-05 button {
-    width: 7rem;
-    padding: 0.5rem;
-}
-
-.section-06 {
-    background-color:aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: safe;
-    padding: 8rem;
-    gap: 3rem;
-    flex-wrap: wrap;
-
-
-}
-
-.section-06 img {
-    
-    background-color:blue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    width: 3rem;
-    padding: 4rem;
-    float: inline-start;
-    margin: 1rem;
-
-}
-
-.contratar {
-    display: inline-flex;
-}
-
-.section-06 h2 {
-    font-size: 2rem;
-    display: inline;
-}
-
-.section-06 i {
-    display: inline;
-    align-items: center;
-    justify-content:center;
-    gap: 1rem;
-    width: 2rem;
-    padding: 0.5rem;
-    height: 2rem;
-}
-
-.section-06 p {
-
-    font-size: 2rem;
-
-}
-
-.section-06 button {
-    width: 7rem;
-    padding: 0.5rem;
-}
-
-
-
-.section-04 {
-    background-color:blueviolet;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8rem;
-    gap: 3rem;
-    flex-wrap: wrap;
-
-}
-
-/* .section-04 img {
-
-    background-color: blue;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin: 1%;
-    padding: 4rem;
-    width: 1rem;
-    float: left;
-
-}
-
-.section-04 h2 {
-font-size: 3rem;
-
-}
-
-.section-04 p {
-    font-size: 1rem;
-}
-
-.section-04 button { 
-    margin-left: 1rem;
-    width: 10rem;
-    padding: 0.5rem;
-
-    
-}
-
-.contratar {
-
-    display: flex;
-    align-items: end;
-}
-
-.section-04 i {
-
-    display: inline;
-    width: 4rem;
-    float: left;
-
-} */
 
 
 
