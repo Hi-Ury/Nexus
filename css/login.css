@@ -158,7 +158,6 @@ form input{
 }
 
 
-
 footer {
     background-color: var(--cor-header-footer);
     display: flex;
@@ -194,7 +193,7 @@ footer {
     padding: 1rem;
 }
 
-@media (max-width 768px) {
+@media (max-width: 768px) {
     .esquerdo-02{
         padding: 35px;
     }
@@ -203,14 +202,14 @@ footer {
         height: 550px;
     }
 
-    .lado-esquerdo{max-width: 768px;
+    .lado-esquerdo{
         width: 100%;
     }
     .lado-direito{
         width: 100%;
     }
 
-    #sessao01{
+    .caixa-principal{
         flex-direction: column;
     }
 
