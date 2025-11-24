@@ -92,8 +92,8 @@ form input{
 
 .segunda-parte{
     display: flex;
-    align-items: center;
     justify-content: center;
+    display: none;
 }
 
 .esquerdo-02{
@@ -104,10 +104,22 @@ form input{
     padding: 1rem;
     display: flex;
     gap: 2rem;
-    width: 38%;
+    width: 40%;
     height: 30rem;
     color: var(--cor-paragrafo-texto);
-    display: none;
+}
+
+.direito-02{
+    background-image: url(../imagens/engenheiro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 32rem;
+}
+
+.display{
+    display: flex;
 }
 
 .esquerdo-02 h2{
@@ -147,15 +159,6 @@ form input{
     gap: 1rem;
 }
 
-.direito-02{
-    background-image: url(/imagens/engenheiros.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    width: 60%;
-    height: 32rem;
-    display: none;
-}
 
 
 footer {

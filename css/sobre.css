@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-header-footer);
+    padding: 1rem;
+    position: sticky;
+    left: 0;
+    top: -10px;
+    z-index: 999;
+}
+
+.logo {

@@ -48,7 +48,7 @@
                 <div class="lado-esquerdo">
                     <h2>Bem-vindo!</h2>
                     <p>para se manter conectado conosco, faça <span>Login</span> com suas informações pessoais.</p>
-                    <input type="button" value="ENTRAR" id="btn01">
+                    <input type="button" value="ENTRAR" id="btn01" onclick="login()">
                 </div>
 
                 <div class="lado-direito">
@@ -71,8 +71,8 @@
         </section>
     </main>
 
-    <section class="segunda-parte">
-
+    <section class="segunda-parte" id="segunda-parte">
+        <div class="display">
         <div class="esquerdo-02">
             <h2>Entrar</h2>
             <div class="form-02">
@@ -82,13 +82,13 @@
             <input type="password" placeholder="Digite sua senha">
             <div class="botoes-segunda">
             <input type="button" value="Entrar" id="btn-entrar">
-            <input type="button" value="Cadastra-se" id="btn-cadastrar">
+            <input type="button" value="Cadastra-se" id="btn-cadastrar" onclick="cadastar()">
             </div>
             </div>
         </div>
 
         <div class="direito-02"></div>
-
+         </div>
     </section>
 
      <footer>
@@ -137,4 +137,5 @@
 </body>
 <script src="https://kit.fontawesome.com/3bee387c5f.js" crossorigin="anonymous"></script>
 <script src="../js/menu.js"></script>
+<script src="../js/login.js"></script>
 </html>
