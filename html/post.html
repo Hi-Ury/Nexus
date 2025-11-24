@@ -47,7 +47,38 @@
     </header>
 
     <main>
+        <h2 class="titulo">QUAL O SEU SERVIÇO?</h2>
 
+        <div class="informacao-extra">
+            <!-- Por falta de tempo parte simplificada para uma div -->
+            <div class="up-foto">
+                <p>Envie uma foto Para o serviço</p>
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+            </div>
+
+            <form action="" class="form-informacao-extra">
+                <div class="input-padrao">
+                    <label for="tipo">Titulo do serviço:</label>
+                    <input type="text" placeholder="Confeitaria..." id="tipo">
+                </div>
+                <div class="input-padrao">
+                    <label for="tag">Adicionar TAGS:</label>
+                    <input type="text" placeholder="cozinha, bolos....." id="tag">
+                </div>
+                <div class="input-valor">
+                    <label for="valor">Valor:</label>
+                    <div class="input-valor-number">
+                        <p>R$</p>
+                        <input type="number" placeholder="00,00" id="Valor">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <form action="" class="container-descricao">
+            <label for="descricao">Qual a Descrição do Serviço Prestado:</label>
+            <input type="text" id="descricao" placeholder="Aqui vai a  descrição do serviço que você oferece.....">
+            <input type="submit" value="POSTAR" id="enviar">
+        </form>
     </main>
 
     <footer>
