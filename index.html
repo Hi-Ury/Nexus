@@ -21,22 +21,29 @@
         <a href="./index.html"><img src="./imagens/logo-completa-branca.png"
                 alt="Logo da empresa Nexus completa versão branca" class="logo"></a>
         <section id="container-search-bar">
-            <input type="text" placeholder="O que você procura?">
-            <ul>
-
-            </ul>
-        </section>
-        <i class="fa-solid fa-bars"></i>
-
-        <section class="burger-menu">
-            <div class="user">
-                <i class="fa-solid fa-user"></i>
+            <div class="pesquisa-desk">
+                <input type="text" placeholder="O que você procura?">
+                <ul>
+                </ul>
             </div>
-            <ul class="menu">
-                <li><a href="">Login</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Postar</a></li>
-            </ul>
+        </section>
+        <i class="fa-solid fa-bars" onclick="AbrirMenu()"></i>
+
+        <section class="burger-menu" id="menu">
+            <nav class="menu">
+                <div class="pesquisa-mobile">
+                <input type="text" placeholder="O que você procura?">
+                <ul>
+                </ul>
+            </div>
+                <i class="fa-solid fa-xmark" onclick="FucharMenu()"></i>
+                <ul>
+                    <li><a href="./html/login.html">Login</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./html/post.html">Postar</a></li>
+                    <li><a href="./html/sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
         </section>
     </header>
 
@@ -406,5 +413,8 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 <script src="./js/swiper.js"></script>
 <script src="js/claudio.js"></script>
+
+<!-- menu -->
+<script src="./js/menu.js"></script>
 
 </html>

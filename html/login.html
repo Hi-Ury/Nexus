@@ -7,11 +7,38 @@
     <title>Login</title>
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/padrão.css">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header>
+        <a href="../index.html"><img src="../imagens/logo-completa-branca.png"
+                alt="Logo da empresa Nexus completa versão branca" class="logo"></a>
+        <section id="container-search-bar">
+            <div class="pesquisa-desk">
+                <input type="text" placeholder="O que você procura?">
+                <ul>
+                </ul>
+            </div>
+        </section>
+        <i class="fa-solid fa-bars" onclick="AbrirMenu()"></i>
 
+        <section class="burger-menu" id="menu">
+            <nav class="menu">
+                <div class="pesquisa-mobile">
+                <input type="text" placeholder="O que você procura?">
+                <ul>
+                </ul>
+            </div>
+                <i class="fa-solid fa-xmark" onclick="FucharMenu()"></i>
+                <ul>
+                    <li><a href="../html/login.html">Login</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../html/post.html">Postar</a></li>
+                    <li><a href="../html/sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
 
     <main>
@@ -109,5 +136,5 @@
     </footer>
 </body>
 <script src="https://kit.fontawesome.com/3bee387c5f.js" crossorigin="anonymous"></script>
-
+<script src="../js/menu.js"></script>
 </html>

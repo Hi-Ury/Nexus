@@ -38,13 +38,17 @@ header {
     justify-content: space-between;
     background-color: var(--cor-header-footer);
     padding: 1rem;
+    position: sticky;
+    left: 0;
+    top: -10px;
+    z-index: 999;
 }
 
 .logo {
     width: 10rem;
 }
 
-#container-search-bar {
+.pesquisa-mobile , .pesquisa-desk {
     input {
         width: 50vw;
         height: 1rem;
@@ -63,13 +67,44 @@ header {
 }
 
 .burger-menu {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left: 3rem;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    left: 100%;
+    top: 0;
+    right: 0;
+    background-color: var(--cor-fundo-variacao);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    color: var(--cor-fundo-padrao);
+    z-index: 9999;
+    font-size: 2rem;
+
+    a {
+        color: var(--cor-fundo-padrao);
+    }
+}
+
+.fa-xmark {
+    position: relative;
+    bottom: 8rem;
+    cursor: pointer;
 }
 
 .fa-bars {
     font-size: 2rem;
     color: var(--cor-fundo-padrao);
     cursor: pointer;
+}
+
+.pesquisa-mobile {
+    display: none;
 }
 
 /* footer */
@@ -106,4 +141,38 @@ footer {
 
 .autoral {
     padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+        /* header */
+    .pesquisa-mobile {
+        display: inline-block;
+        margin-bottom: 2rem;
+
+        input {
+            width: 90vw;
+        }
+    }
+    .pesquisa-desk {
+        display: none;
+    }
+
+    .fa-xmark {
+        position: absolute;
+        top: 3rem;
+        left: 50vw;
+    }
+
+    .burger-menu {
+        align-items: center;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    /* footer */
+    .contatos {
+        flex-direction: column;
+        gap: 1rem;
+    }
 }

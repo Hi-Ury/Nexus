@@ -1,86 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sobre-Nos</title>
     <link rel="stylesheet" href="../css/sobr.css">
+    <link rel="stylesheet" href="../css/padrão.css">
 </head>
 
 <body>
 
     <header>
+        <a href="../index.html"><img src="../imagens/logo-completa-branca.png"
+                alt="Logo da empresa Nexus completa versão branca" class="logo"></a>
+        <section id="container-search-bar">
+            <div class="pesquisa-desk">
+                <input type="text" placeholder="O que você procura?">
+                <ul>
+                </ul>
+            </div>
+        </section>
+        <i class="fa-solid fa-bars" onclick="AbrirMenu()"></i>
 
+        <section class="burger-menu" id="menu">
+            <nav class="menu">
+                <div class="pesquisa-mobile">
+                    <input type="text" placeholder="O que você procura?">
+                    <ul>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-xmark" onclick="FucharMenu()"></i>
+                <ul>
+                    <li><a href="../html/login.html">Login</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../html/post.html">Postar</a></li>
+                    <li><a href="../html/sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
-    
-     <div class="container">
+    <main>
 
-        <section class="section-01">
-        <div class="caixa-01">
-            <h1>Nossa Missão</h1>
-            <p>Na NexuS, nossa missão é conectar talentos a oportunidades e, assim, transformar a maneira como o
-                trabalho é
-                feito. Buscamos ser a plataforma líder para serviços freelancer, oferecendo um ecossistema digital
-                seguro,
-                eficiente e transparente. Acreditamos que todos merecem a liberdade de encontrar o trabalho ideal ou o
-                profissional perfeito para suas necessidades. Por isso, dedicamo-nos a capacitar indivíduos (sejam eles
-                freelancers ou clientes) com as ferramentas necessárias para postar, descobrir e realizar serviços com
-                excelência, promovendo o crescimento econômico e a flexibilidade profissional em escala global.</p>
-        </div>
-        
+        <div class="container">
+            <section class="section-01">
+                <div class="caixa-01">
+                    <h1>Nossa Missão</h1>
+                    <p>Na NexuS, nossa missão é conectar talentos a oportunidades e, assim, transformar a maneira como o
+                        trabalho é
+                        feito. Buscamos ser a plataforma líder para serviços freelancer, oferecendo um ecossistema
+                        digital
+                        seguro,
+                        eficiente e transparente. Acreditamos que todos merecem a liberdade de encontrar o trabalho
+                        ideal ou o
+                        profissional perfeito para suas necessidades. Por isso, dedicamo-nos a capacitar indivíduos
+                        (sejam eles
+                        freelancers ou clientes) com as ferramentas necessárias para postar, descobrir e realizar
+                        serviços com
+                        excelência, promovendo o crescimento econômico e a flexibilidade profissional em escala global.
+                    </p>
+                </div>
 
-        <section class="section-02">
-        <div class="caixa-02">
-            <h1>História</h1>
-            <p>A NexuS nasceu em 2025 a partir da simples e poderosa ideia de conectar talentos especializados a
-                oportunidades flexíveis. Observamos a crescente demanda por trabalho freelancer e a necessidade de um
-                espaço
-                digital que oferecesse segurança e transparência tanto para quem contrata quanto para quem executa.
-                Desde o
-                nosso lançamento, focamos em eliminar barreiras geográficas e burocráticas, transformando-nos em uma
-                comunidade vibrante dedicada a promover o sucesso mútuo. Hoje, somos o ponto de encontro onde o futuro
-                do
-                trabalho se realiza, tornando-o mais acessível, adaptável e recompensador para todos.</p>
+                <section class="section-02">
+                    <div class="caixa-02">
+                        <h1>História</h1>
+                        <p>A NexuS nasceu em 2025 a partir da simples e poderosa ideia de conectar talentos
+                            especializados a
+                            oportunidades flexíveis. Observamos a crescente demanda por trabalho freelancer e a
+                            necessidade de um
+                            espaço
+                            digital que oferecesse segurança e transparência tanto para quem contrata quanto para quem
+                            executa.
+                            Desde o
+                            nosso lançamento, focamos em eliminar barreiras geográficas e burocráticas,
+                            transformando-nos em uma
+                            comunidade vibrante dedicada a promover o sucesso mútuo. Hoje, somos o ponto de encontro
+                            onde o futuro
+                            do
+                            trabalho se realiza, tornando-o mais acessível, adaptável e recompensador para todos.</p>
+                    </div>
+                </section>
+
+                <section class="section-03">
+                    <div class="caixa-03">
+                        <h1>Nossa equipe</h1>
+                        <p>A [Nome Fictício da Empresa] é guiada por empreendedores apaixonados que entendem a dinâmica
+                            do mercado
+                            freelancer em primeira mão.
+                            Nossos fundadores, Hiury, Cendy e Rafaela (com foco em tecnologia) e Cláudio e Michelet
+                            (com expertise em mercado de trabalho), uniram-se para construir uma plataforma justa,
+                            eficiente e
+                            transparente. Somos movidos pela missão de humanizar as relações de trabalho, simplificando
+                            a busca por
+                            talentos e oportunidades. Acreditamos que o talento e a oportunidade devem andar juntos, e
+                            dedicamos
+                            nosso
+                            esforço para garantir que isso aconteça na nossa plataforma.</p>
+                    </div>
+                </section>
+
+
+                <section class="section-04">
+                    <div class="caixa-04">
+                        <h1> Serviços em Foco: Talentos e Oportunidades Conectados</h1>
+                        <p>A NexuS é o seu mercado de serviços freelancer sob demanda.
+                            Para Clientes: Permite postar seu projeto rapidamente e acessar um talento global e
+                            verificado. O
+                            benefício
+                            chave é a agilidade, a economia de custos e a segurança de ter o pagamento retido até a sua
+                            total
+                            satisfação
+                            com a entrega.
+                            Para Freelancers: Oferecemos a liberdade de definir preços e horários, garantindo pagamento
+                            seguro e uma
+                            vitrine profissional para construir seu portfólio.
+                            Em suma, conectamos expertise sob demanda com a flexibilidade que você procura, facilitando
+                            transações
+                            seguras e projetos de alta qualidade.</p>
+                    </div>
         </div>
         </section>
-    
+    </main>
 
-   
+    <footer>
+        <div class="logo-footer"><img src="../imagens/logo-completa-branca.png"
+                alt="Logo da empresa Nexus completa versão branca" class="logo"></div>
 
-        <section class="section-03">
-        <div class="caixa-03">
-            <h1>Nossa equipe</h1>
-            <p>A [Nome Fictício da Empresa] é guiada por empreendedores apaixonados que entendem a dinâmica do mercado
-                freelancer em primeira mão.
-                Nossos fundadores, Hiury, Cendy e Rafaela (com foco em tecnologia) e Cláudio e Michelet
-                (com expertise em mercado de trabalho), uniram-se para construir uma plataforma justa, eficiente e
-                transparente. Somos movidos pela missão de humanizar as relações de trabalho, simplificando a busca por
-                talentos e oportunidades. Acreditamos que o talento e a oportunidade devem andar juntos, e dedicamos
-                nosso
-                esforço para garantir que isso aconteça na nossa plataforma.</p>
+        <div class="contatos">
+            <div class="entre-em-contato">
+                <h2>ENTRE EM CONTATO:</h2>
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <p>(00) 90000-0000</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>contato@nexus.com.br</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="redes-sociais">
+                <h2>REDES SOCIAIS:</h2>
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>@nexus</p>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <p>facebook.com/nexus</p>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-tiktok"></i>
+                        <p>@oficialnexus</p>
+                    </li>
+                </ul>
+            </div>
         </div>
-        </section>
-    
 
-   <section class="section-04">
-        <div class="caixa-04">
-            <h1> Serviços em Foco: Talentos e Oportunidades Conectados</h1>
-            <p>A NexuS é o seu mercado de serviços freelancer sob demanda.
-                Para Clientes: Permite postar seu projeto rapidamente e acessar um talento global e verificado. O
-                benefício
-                chave é a agilidade, a economia de custos e a segurança de ter o pagamento retido até a sua total
-                satisfação
-                com a entrega.
-                Para Freelancers: Oferecemos a liberdade de definir preços e horários, garantindo pagamento seguro e uma
-                vitrine profissional para construir seu portfólio.
-                Em suma, conectamos expertise sob demanda com a flexibilidade que você procura, facilitando transações
-                seguras e projetos de alta qualidade.</p>
+        <div class="autoral">
+            <p>CNPJ:00.000.000/0000-00</p>
+            <p>&copy Nexus Corporation</p>
         </div>
-    </div>
-</section>
-
+    </footer>
 
 </body>
+
+<script src="https://kit.fontawesome.com/3bee387c5f.js" crossorigin="anonymous"></script>
+<script src="../js/menu.js"></script>
 
 </html>
