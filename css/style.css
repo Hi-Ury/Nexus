@@ -19,61 +19,103 @@
 
 }
 
-.div-caixa-maior {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#9a6e55;
-    width: 25%;
-    height: 17rem;
-
+.div-filho-01 {
+    width: 14rem;
+    height: 14rem;
 
 }
 
-.div-caixa-maior video {
-    display: flex;
-    justify-content: center; 
-    width: 17rem;
-    height: 30rem;
-}
-
-.div-caixas-pai {
-
-    background-color: #9a6e55;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    gap: 1rem; 
-    padding: 60px;
-    width: 20rem;
-
-
-}
-
-.div-caixa img {
+.box {
     width: 12rem;
-    padding: 8px;
-    height: 11rem;
-    
+    height: 12rem;
 
 
 }
 
-/* .div-caixa {
+.box-pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.box-pai00 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.caixa-01 {
+    background-image: url(../imagens/claudio/engenheiros.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.caixa-02 {
+
+    background-image: url(../imagens/claudio/Mecânica\ Industrial.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.caixa-03 {
+    background-image: url(../imagens/claudio/pexels-akoonie-32751450.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.caixa-04 {
+    background-image: url(../imagens/claudio/pexels-anastasia-shuraeva-8470882.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.caixa-05 {
+    background-image: url(../imagens/claudio/pexels-kindelmedia-8487400\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.caixa-06 {
+    background-image: url(../imagens/claudio/pexels-nadezhda-moryak-6629357.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+.pai-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+.div-caixa {
 
     text-align: center;
-    width: 100px;
-    background-color:black;
-    padding: 5px;
+    width: 10rem;
+    /* background-color:black; */
+    padding: 2rem;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
-    height: 100px;
-} */
+    height: 20px;
+}
 
 .section-03 {
-    background-color:#f1f0f3;
+    background-color: #b96e54;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +128,8 @@
 
 
 .section-03 h2 {
-    color:brown;
+    color: #f1f1f1;
+    ;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -104,21 +147,32 @@
 
 
 
+
+
 .section-03 button {
 
-    background-color: #d17b4d;
-    color: black;
+    background-color: #f29f4b;
+    font-size: 1.5rem;
+    color: #f1f0f3;
     gap: 1rem;
-    width: 9rem;
-    padding: 0.1rem;
-    margin-top: 6rem;
+    width: 14rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: none;
+    transition-duration: 0.3s;
+
+}
+
+.section-03 button:hover {
+    background-color: #d17b4d;
+    scale: 1.2;
 }
 
 .section-04 {
-    background-color:#f1f0f3;
+    background-color: #f1f0f3;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     padding: 8rem;
     gap: 4rem;
     flex-wrap: wrap;
@@ -126,9 +180,31 @@
 
 }
 
-.section-04 img {
-    
-    background-color:#9a6e55;
+.estrelas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.teg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+}
+
+.teg p {
+    width: 9rem;
+    height: 2.5rem;
+    background-color: #9a6e55;
+    text-align: center;
+}
+
+
+.caixa-07 {
+
+    background-color: #9a6e55;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -141,15 +217,26 @@
 
 }
 
+.serviços {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contratar {
-    position: relative;
-    bottom: 4rem;
-    left: 4rem;
-    color: black;
     background-color: #d17b4d;
+    border: none;
+    transition-duration: 0.3s;
 
+}
 
+.contratar p {
+    color: #f1f1f1;
+}
 
+.contratar:hover {
+    background-color: #d17b4d;
+    scale: 1.2;
 }
 
 .section-04 h2 {
@@ -161,7 +248,7 @@
 .section-04 i {
     display: inline;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     gap: 1rem;
     width: 2rem;
     padding: 0.5rem;
@@ -181,10 +268,19 @@
     left: 2rem;
     width: 7rem;
     padding: 0.5rem;
-    color:black;
+    color: black;
     background-color: #d17b4d;
 }
 
+
+.banner-02 {
+    background-image: url(../imagens/desktop\ banner\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 13rem;
+
+
+}
 
 
 
@@ -195,7 +291,7 @@
 /* Serviços */
 
 /* carrossel de avaliaçõs */
-.carrocel-avaliacao{
+.carrocel-avaliacao {
     text-align: center;
     padding: 1rem;
 
@@ -212,7 +308,7 @@
 
 .swiper {
     min-height: 20rem;
-    height: auto; 
+    height: auto;
 }
 
 .card-swiper {
@@ -237,6 +333,7 @@
 
 .botao {
     margin: 1rem;
+
     a {
         background-color: var(--cor-botao-padrao);
         color: var(--cor-fundo-padrao);
