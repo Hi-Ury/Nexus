@@ -1,23 +1,79 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    font-family: "Google Sans Code", monospace;
-}
-
 .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.caixa { 
-    width: 45%;
-    /* Controla o tamanho das divs */
-    margin: 10px;
-    /* Espaçamento entre as divs */
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ccc 
+.section-direita {
+    width: 70%;
+    text-align: right;
+    margin-left: 25%;
+    min-width: 300px;
+    padding: 2rem;
+
 }
 
-.caixa-01
+.section-esquerda {
+    margin-left: rem;
+    width: 70%;
+    min-width: 400px;
+    padding: 1.5rem;
+}
+
+.box {
+    box-shadow: 10px 10px 20px rgba(41, 40, 40, 0.87);
+    padding: 3rem;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    color: var(--cor-titulo)
+}
+
+p {
+    color: var(--cor-paragrafo-texto);
+}
+
+.pf {
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section-direita {
+        width: 70%;
+        text-align: right;
+        margin-left: 25%;
+        padding: 2rem;
+
+    }
+
+    .section-esquerda {
+        margin-right: 25%;
+        width: 70%;
+        padding: 2rem;
+        text-align: left;
+        gap: 10px;
+
+    }
+
+    .caixa-01 {
+        margin-left: 15%;
+        width: 70%;
+
+    }
+
+    .caixa-02 {
+        gap: 3rem;
+    }
+
+    .caixa-03 {
+        margin-left: 10%;
+        width: 70%;
+    }
+}
