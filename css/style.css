@@ -16,20 +16,19 @@
     padding: 2rem;
     flex-wrap: wrap;
     flex-direction: center;
-
 }
 
 .div-filho-01 {
     width: 14rem;
     height: 14rem;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
     width: 12rem;
     height: 12rem;
-
-
 }
 
 .box-pai {
@@ -54,11 +53,9 @@
 }
 
 .caixa-02 {
-
     background-image: url(../imagens/claudio/Mecânica\ Industrial.jpg);
     background-position: center;
     background-size: cover;
-
 }
 
 .caixa-03 {
@@ -83,35 +80,15 @@
     background-image: url(../imagens/claudio/pexels-nadezhda-moryak-6629357.jpg);
     background-position: center;
     background-size: cover;
-
 }
-
-
-
-
-
 
 .pai-02 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: 42rem;
     gap: 1rem;
-}
-
-
-
-.div-caixa {
-
-    text-align: center;
-    width: 10rem;
-    /* background-color:black; */
-    padding: 2rem;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-    height: 20px;
 }
 
 .section-03 {
@@ -122,35 +99,23 @@
     padding: 8rem;
     gap: 1rem;
     flex-wrap: wrap;
-
+    text-align: center;
 }
 
-
-
 .section-03 h2 {
-    color: #f1f1f1;
-    ;
+    color: #f1f1f1;;
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-transform: uppercase;
-
-
 }
 
 .section-03 p {
-
     color: #333333;
     font-size: 1.5rem;
-
 }
 
-
-
-
-
 .section-03 button {
-
     background-color: #f29f4b;
     font-size: 1.5rem;
     color: #f1f0f3;
@@ -160,7 +125,6 @@
     margin-top: 2rem;
     border: none;
     transition-duration: 0.3s;
-
 }
 
 .section-03 button:hover {
@@ -176,14 +140,13 @@
     padding: 8rem;
     gap: 4rem;
     flex-wrap: wrap;
-
-
 }
 
 .estrelas {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .teg {
@@ -191,19 +154,22 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 1rem;
-
+    color: #f1f0f3;
 }
 
 .teg p {
-    width: 9rem;
-    height: 2.5rem;
+    width: 13rem;
+    height: 2rem;
     background-color: #9a6e55;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f1f0f3;
 }
 
 
 .caixa-07 {
-
     background-color: #9a6e55;
     display: flex;
     justify-content: space-around;
@@ -214,10 +180,23 @@
     float: inline-start;
     margin: 0 2rem;
     gap: 8rem;
-
+    background-size: cover;
+    background-position: center;
 }
 
-.serviços {
+.empresa1 {
+    background-image: url(../imagens/empresa1.png);
+}
+
+.empresa2 {
+    background-image: url(../imagens/empresa2.png);
+}
+
+.empresa3 {
+    background-image: url(../imagens/empresa3.png);
+}
+
+.servicos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,7 +206,6 @@
     background-color: #d17b4d;
     border: none;
     transition-duration: 0.3s;
-
 }
 
 .contratar p {
@@ -256,39 +234,22 @@
 }
 
 .section-04 p {
-
     font-size: 1rem;
-    color: #333333;
-
-
 }
 
 .section-04 button {
-    position: relative;
-    left: 2rem;
     width: 7rem;
     padding: 0.5rem;
     color: black;
     background-color: #d17b4d;
 }
 
-
 .banner-02 {
     background-image: url(../imagens/desktop\ banner\ 2.jpg);
     background-size: cover;
     background-position: center;
     padding: 13rem;
-
-
 }
-
-
-
-
-
-/* Postar Serviço */
-
-/* Serviços */
 
 /* carrossel de avaliaçõs */
 .carrocel-avaliacao {
@@ -353,4 +314,64 @@
     color: var(--cor-paragrafo-texto);
 }
 
-/* Banner 2 */
+@media only screen and (max-width: 600px) {
+    .img-fixa {
+        background-image: url(../imagens/mobile\ banner\ 1.jpg);
+        padding: 4rem;
+    }
+
+    .section-02{
+        padding: 1rem;
+    }
+
+    .div-filho-01 {
+        width: 90vw;
+
+        iframe {
+            width: 100%;
+        }
+    }
+
+    .pai-02 {
+        width: 23rem
+    }
+
+    .box {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .section-03 {
+        padding: .8rem;
+    }
+
+    .section-04 {
+        padding: 1rem;
+    }
+
+    .servicos {
+        width: 90vw;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .estrelas {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .teg {
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-02 {
+        background-image: url(../imagens/mobile.jpg);
+        padding: 4rem;
+    }
+}
